@@ -1,8 +1,8 @@
 /**
  * Created by Petter Glad-Ørbak on 10.09.2018.
  */
-public class Problem_2 {
-
+public class Problem_2
+{
     public static void main(String[] args)
     {
         int fibSum = 0;
@@ -11,7 +11,6 @@ public class Problem_2 {
         int previousNumber = 0;
         int nextNumber = 1;
         int sum = 0;
-
 
         while(sum < maxValue)
         {
@@ -23,7 +22,7 @@ public class Problem_2 {
             previousNumber = nextNumber;
             nextNumber = sum;
         }
-        System.out.println(fibSum);
 
+        System.out.println(fibSum);
     }
 }
