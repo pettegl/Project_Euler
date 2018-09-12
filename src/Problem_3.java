@@ -37,9 +37,13 @@ public class Problem_3
             return false;
         }
         //if not, then just check the odds
-        for(int i=3;i*i<=number;i+=2) {
+        for(int i = 3; i*i <= number; i += 2)
+        {
             if(number%i == 0)
+            {
                 return false;
+            }
+
         }
         return true;
     }
