@@ -20,7 +20,6 @@ public class Problem_5
         System.out.println(counter);
 
     }
-
     // Check if number is evenly divisible by numbers 1-20.
     private static boolean isEvenlyDivisible(int number)
     {
